@@ -11,7 +11,7 @@ function Footer() {
         AOS.init()
     },[])
     return (
-        <footer className='w-full items-center justify-center mx-auto text-center bg-teal-100 pt-3' data-aos="zoom-in">
+        <footer className='w-full items-center justify-center mx-auto text-center bg-teal-100 mb-0 pt-3' data-aos="zoom-in">
             <div className='lg:flex items-center gap-8 mx-auto justify-center text-center'>
                 {/* company details */}
                 <div className='items-center lg:grid justify-center text-center mx-auto'>
