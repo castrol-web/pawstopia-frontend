@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import logo from "../images/logo.jpg";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
-import AOS from "aos";
-import 'aos/dist/aos.css';
 
 function Footer() {
     const date = new Date().getFullYear();
-    useEffect(()=>{
-        AOS.init()
-    },[])
     return (
-        <div className='w-full items-center justify-center mx-auto text-center bg-teal-100 mb-0 pt-3' data-aos="zoom-in">
+        <div className='w-full items-center justify-center mx-auto text-center bg-teal-100 mb-0 pt-3'>
             <div className='lg:flex items-center gap-8 mx-auto justify-center text-center'>
                 {/* company details */}
                 <div className='items-center lg:grid justify-center text-center mx-auto'>
