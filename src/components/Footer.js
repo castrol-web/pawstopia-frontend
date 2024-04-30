@@ -11,7 +11,7 @@ function Footer() {
         AOS.init()
     },[])
     return (
-        <div className='items-center justify-center mx-auto text-center bg-teal-100 pt-3 bottom-0 fixed' data-aos="slide-up">
+        <footer className='w-full items-center justify-center mx-auto text-center bg-teal-100 pt-3 bottom-0 fixed' data-aos="zoom-in">
             <div className='lg:flex items-center gap-8 mx-auto justify-center text-center'>
                 {/* company details */}
                 <div className='items-center lg:grid justify-center text-center mx-auto'>
@@ -47,11 +47,11 @@ function Footer() {
                 </div>
             </div>
             <hr className='mt-4 border-teal-800'></hr>
-            <footer className='justify-between lg:flex mx-6'>
+            <div className='justify-between lg:flex mx-6'>
                 <small className='flex text-center items text-gray-900'>©{date} Pawstopia Pet Grooming and Wellness Company</small>
                 <small>Site Built by <a href='/castrol-banda'>Castrol Banda</a></small>
-            </footer>
-        </div>
+            </div>
+        </footer>
     )
 }
 
