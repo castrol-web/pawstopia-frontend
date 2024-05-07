@@ -4,6 +4,7 @@ import petdeworming from "../images/petdeworming.jpg";
 import vaccination from "../images/vaccination.jpeg";
 import dogwalking from "../images/dogwalking.jpeg";
 import dogdaycare from "../images/dogdaycare.jpeg";
+import destinylogo from "../images/destinylogo.PNG";
 import dogs from "../images/dogs.jpeg";
 import { IoMdArrowDropright } from "react-icons/io";
 import { MdChildCare } from 'react-icons/md';
@@ -11,7 +12,6 @@ import Services from '../components/Services';
 import { FaSyringe } from 'react-icons/fa';
 import { FaDog } from 'react-icons/fa';
 import { FaPaw } from "react-icons/fa6";
-import "../pages/home.css";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -95,7 +95,7 @@ function Home() {
                     <img src={petdeworming} alt='pet_image' className='items-center mx-auto rounded-lg hover:opacity-75'></img>
                 </div>
 
-                <div className='pb-6 mx-auto items-center justify-center text-center'>
+                <div className='pb-6 mx-5 items-center justify-center text-center'>
                     {/* Render paw icons using random positions */}
                     {pawPositions.map((position, index) => (
                         <div
@@ -148,7 +148,7 @@ function Home() {
                 </div>
                 <div className="lg:flex justify-center mx-auto items-center text-center" data-aos="slide-up">
                     <div className="max-w-xs p-4 bg-white rounded-lg shadow-md mx-auto justify-center py-4 my-4 lg:my-0 transition duration-500 ease-in-out transform hover:scale-105">
-                        <img src="https://via.placeholder.com/150" alt="David Kariuki" className="mx-auto mb-4 rounded-full" />
+                        <img src="https://via.placeholder.com/150" alt="David Kariuki" className="h-14 mx-auto mb-4 rounded-full" />
                         <small className="mb-4">"I can't say enough great things about Pawstopia! My pup,
                             Max, absolutely loves going there. The staff is incredibly caring and attentive, and I always feel
                             confident leaving Max in their capable hands. It's such a relief to know that he's not only
@@ -156,7 +156,7 @@ function Home() {
                         <p className="font-semibold">- David Kariuki</p>
                     </div>
                     <div className="max-w-xs p-4 bg-white rounded-lg shadow-md mx-auto justify-center py-4 my-4 transition duration-500 ease-in-out transform hover:scale-105">
-                        <img src="https://via.placeholder.com/150" alt="Jane Wambui" className="mx-auto mb-4 rounded-full" />
+                        <img src="https://via.placeholder.com/150"  alt="Jane Wambui" className="h-14 mx-auto mb-4 rounded-full" />
                         <small className="mb-4">"I've been taking my dog, Bella, to Pawstopia for over a year now,
                             and I couldn't be happier with the service. The facility is clean, spacious, and well-maintained, and the staff
                             is always friendly and welcoming. Bella gets so excited when she realizes where we're going,
@@ -164,13 +164,13 @@ function Home() {
                         <p className="font-semibold">- Jane Wambui</p>
                     </div>
                     <div className="max-w-xs p-4 bg-white rounded-lg shadow-md mx-auto justify-center items-center text-center py-4 my-4 transition duration-500 ease-in-out transform hover:scale-105">
-                        <img src="https://via.placeholder.com/150" alt="Carson Kinyua" className="mx-auto mb-4 rounded-full" />
+                        <img src={destinylogo} alt="Castrol Banda" className="mx-auto mb-4 h-14 rounded-full" />
                         <small className="mb-4">"As a busy pet parent, finding a reliable dog daycare was a priority for me, and I'm
                             so glad I found Pawstopia. The convenience of drop-off and pick-up times, along with the peace of
                             mind knowing that my dog, Charlie, is in good hands, has made all the difference. The staff genuinely cares about
                             the dogs and goes above and beyond
                             to ensure they have a positive experience."</small>
-                        <p className="font-semibold">- Carson Kinyua</p>
+                        <p className="font-semibold">- Castrol Banda</p>
                     </div>
                 </div>
             </div>

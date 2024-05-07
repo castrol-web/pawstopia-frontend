@@ -72,8 +72,8 @@ function Navbar() {
                                     <Link onClick={closeMenu} to="/grooming" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pet Grooming</Link>
                                     <Link onClick={closeMenu} to="/vaccination" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pet Vaccination</Link>
                                     <Link onClick={closeMenu} to="/deworming" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pet Deworming</Link>
-                                    <Link onClick={closeMenu} to="/vetinary" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mobile Vetinary</Link>
-                                    <Link onClick={closeMenu} to="/walking" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dog Walking</Link>
+                                    <Link onClick={closeMenu} to="/veterinary" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mobile Vetinary</Link>
+                                    <Link onClick={closeMenu} to="/dog-walking" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dog Walking</Link>
                                     <Link onClick={closeMenu} to="/pet-sitters" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pet Sitters</Link>
                                     <Link onClick={closeMenu} to="/dog-daycare" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dog Daycare</Link>
                                 </div>
